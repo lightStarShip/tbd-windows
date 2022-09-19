@@ -50,7 +50,7 @@ Download from [releases](https://github.com/shadowsocks/shadowsocks-windows/rele
 
 1. Clone the repository recursively.
 ```bash
-$ git clone --recursive https://github.com/shadowsocks/shadowsocks-windows.git
+$ git clone --recursive https://github.com/lightStarShip/tbd-windows.git
 ```
 2. Open the repository in VS2019, switch to the _Release_ configuration, and build the solution.
 
