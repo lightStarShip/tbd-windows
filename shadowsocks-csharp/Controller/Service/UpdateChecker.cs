@@ -21,7 +21,6 @@ namespace Shadowsocks.Controller
         private readonly Logger logger;
         private readonly HttpClient httpClient;
 
-        // https://developer.github.com/v3/repos/releases/
         private const string UpdateURL = "https://api.github.com/repos/shadowsocks/shadowsocks-windows/releases";
 
         private Configuration _config;
@@ -33,7 +32,7 @@ namespace Shadowsocks.Controller
 
         public event EventHandler CheckUpdateCompleted;
 
-        public const string Version = "4.4.1.0";
+        public const string Version = "1.0.1";
         private readonly Version _version;
 
         public UpdateChecker()

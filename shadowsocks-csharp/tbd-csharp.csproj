@@ -17,7 +17,7 @@
     <FileAlignment>512</FileAlignment>
     <StartupObject>
     </StartupObject>
-    <ApplicationIcon>shadowsocks.ico</ApplicationIcon>
+    <ApplicationIcon>tbd.ico</ApplicationIcon>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -366,6 +366,7 @@
     <None Include="Model\Geosite\geosite.proto" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="tbd.ico" />
     <None Include="Data\sysproxy.exe.gz" />
     <None Include="Data\sysproxy64.exe.gz" />
     <None Include="packages.config" />
